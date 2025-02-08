@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", serif;
+}
+.destinations_hero {
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.26);
+  background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/newscms/2018_08/1319814/clearwater-beach-today-180221-tease.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.dest_hero_textwrapper {
+  margin-left: 6rem;
+}
+.destinations_hero h1 {
+  font-size: 3rem;
+}
+
+.dest_filter {
+  background-color: #161646;
+  padding: 2rem 0;
+}
+
+.destination_search_sort {
+  background-color: #f0f8ff;
+  margin: 0 6rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.search_sort {
+  background-color: #ececec;
+  padding: 0.5rem;
+  position: relative;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr 1.5rem;
+  gap: 0.5rem;
+  align-items: center;
+}
+.search_sort span {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.search {
+  all: unset;
+  width: 100%;
+  border-bottom: 1px solid transparent;
+}
+.search:focus {
+  border-bottom: 1px solid black;
+}
+.drop_down {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  /* border: 1px solid #ccc; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 100;
+}
+.option {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+.option:hover {
+  background-color: #f5f5f5;
+}
+.search_sort:hover .drop_down {
+  display: block;
+}
+.beach_display {
+  padding: 3rem 6rem;
+}
+.beaches {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.beachcard {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  overflow: hidden;
+}
+.img_wrapper {
+  height: 12rem;
+  overflow: hidden;
+}
+.img_wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.img_wrapper:hover img {
+  scale: 1.2;
+}
+.detail {
+  margin: 0.5rem;
+}
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+.destination {
+  width: 45vw;
+  padding: 10rem 1rem;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.destination h1 {
+  color: #0077b6;
+  margin-top: 2rem;
+}
+
+.destination h2 {
+  margin: 2rem 0 0.5rem;
+}
+
+.destination img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.destination ul {
+  list-style-type: none;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 0.8rem;
+  transition: 0.5s;
+}
+.gallery img:hover {
+  scale: 1.5;
+  border: 0.2rem solid transparent;
+  outline: 0.2rem solid #161646;
+}
+
+.destination .download {
+  background-color: #161646;
+  color: #f0f8ff;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  right: 0;
+  top: 0;
+}

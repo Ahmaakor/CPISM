@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", serif;
+}
+.about_hero {
+  height: 50vh;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.521);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/778/205/original/children-row-the-boat-in-the-beach-scene-free-vector.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+.about_history {
+  padding: 3rem 6rem;
+}
+.history_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 2rem;
+}
+.about_title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+.about_detail p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+.history_img_wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.history_img_wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2rem;
+}
+
+.mission {
+  background-color: #fffff0;
+  padding: 3rem 6rem;
+}
+
+.mission_card {
+  max-width: 35rem;
+  margin: auto;
+  padding: 2rem;
+  border: 2px solid #ececec;
+  border-radius: 2rem;
+}
+
+.mission_card h2 {
+  border-left: 5px solid #161646;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: rgb(145, 145, 245);
+}
+
+.mission_card p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.partners {
+  padding: 3rem 6rem;
+}
+
+.partners h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.partners h2 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.partner-logos a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 0.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partner-logos a:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.partner-logos img {
+  width: 7rem;
+  height: auto;
+  max-height: 4rem;
+  object-fit: cover;
+}
+
+.events {
+  padding: 3rem 6rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(https://avatars.mds.yandex.net/i?id=cc39430cc93e56d1fe916efed9d440ec-3981791-images-thumbs&n=13);
+  background-size: COVER;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+.events_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.events h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.event_class {
+  background-color: white;
+}
+
+.event_img {
+  width: 100%;
+  height: 12rem;
+  overflow: hidden;
+}
+
+.event_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event {
+  padding: 2rem;
+}
+
+.event h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.event p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.event .note {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.available-at h3 {
+  font-size: 1rem;
+  margin-top: 15px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.available-at ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.available-at ul li {
+  font-size: 1rem;
+  color: #555;
+  padding: 5px 0;
+}
